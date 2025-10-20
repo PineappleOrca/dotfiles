@@ -28,3 +28,18 @@ set showmatch
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
 
+" Put all standard C and C++ keywords under Vim's highlight
+let g:cpp_simple_highlight = 1
+
+" Highlight operators (affects both C and C++ files)
+let g:cpp_operator_highlight = 1
+
+" Highlight struct/class member variables (affects both C and C++ files)
+let g:cpp_member_highlight = 1
+
+" Enable function highlighting (affects both C and C++ files)
+let g:cpp_function_highlight = 1
+
+" Enable highlighting of type names in class, struct, union and concept declarations
+let g:cpp_type_name_highlight = 1
+
